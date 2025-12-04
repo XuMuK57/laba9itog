@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="150dp">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:hint="Название" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/edit_text"
+        android:hint="Описание" />
+
+    <EditText
+        android:id="@+id/deadline_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата (ДД.ММ.ГГГГ)"
+        android:background="@android:drawable/edit_text"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/deadline_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Время (ЧЧ:ММ)"
+        android:background="@android:drawable/edit_text"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
